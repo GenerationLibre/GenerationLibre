@@ -48,9 +48,12 @@ h3{margin:0 0 6px;font-size:1.1rem}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}
 .card p{margin:0;color:var(--muted);font-size:.97rem}
 .num{display:inline-flex;width:32px;height:32px;border-radius:50%;background:var(--accent);color:#fff;align-items:center;justify-content:center;font-weight:700;margin-bottom:10px}
-div.card{background:#7a1f3d;border-color:#5e1730;color:#fff}
-div.card h3{color:#fff}
-div.card p{color:#f3e3e8}
+h2,h3,.kicker{color:#7a1f3d}
+@media (prefers-color-scheme:dark){h2,h3,.kicker{color:#c4506f}}
+.card{background:#7a1f3d;border-color:#5e1730;color:#fff}
+.card h3{color:#fff}
+.card p{color:#f3e3e8}
+.card .num{background:#fff;color:#7a1f3d}
 .infos{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin:20px 0}
 .info{border-left:4px solid var(--accent);padding:4px 12px}
 .info b{display:block;font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
