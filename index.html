@@ -45,9 +45,12 @@ h3{margin:0 0 6px;font-size:1.1rem}
 .btn.ghost:hover{background:var(--fg);color:var(--bg)}
 .hero{padding-top:64px;padding-bottom:24px}
 .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:20px}
-.card{background:#7a1f3d;border:1px solid #5e1730;border-radius:12px;padding:20px;color:#fff}
-.card p{margin:0;color:#f3e3e8;font-size:.97rem}
-.num{display:inline-flex;width:32px;height:32px;border-radius:50%;background:#fff;color:#7a1f3d;
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}
+.card p{margin:0;color:var(--muted);font-size:.97rem}
+.num{display:inline-flex;width:32px;height:32px;border-radius:50%;background:var(--accent);color:#fff;align-items:center;justify-content:center;font-weight:700;margin-bottom:10px}
+div.card{background:#7a1f3d;border-color:#5e1730;color:#fff}
+div.card h3{color:#fff}
+div.card p{color:#f3e3e8}
 .infos{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin:20px 0}
 .info{border-left:4px solid var(--accent);padding:4px 12px}
 .info b{display:block;font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
